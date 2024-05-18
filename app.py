@@ -1,7 +1,7 @@
 import urllib.request
 import time
 
-url = "https://portal.sasakonnect.net/?interface_mode=true&pagetype=remote&wired_auth=true&interface=vlan2004&staIp=10.4.13.201&staMac=30:D1:6B:E4:A8:0B&url=http:%2F%2Fwww.msftconnecttest.com%2Fredirect"
+url = "https://beyondjobsuserpostsbackend.onrender.com/"
 
 while True:
     try:
@@ -11,4 +11,4 @@ while True:
             print("Accessed the site successfully at:", time.strftime("%Y-%m-%d %H:%M:%S"))
     except urllib.error.URLError as e:
         print("Error accessing the site:", e)
-    time.sleep(2)  # Wait for 2 seconds before accessing again
+    time.sleep(120)  # Wait for 120 seconds before accessing again
